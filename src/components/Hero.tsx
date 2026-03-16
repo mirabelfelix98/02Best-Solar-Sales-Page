@@ -4,7 +4,7 @@ import { ArrowRight, Sun, Zap, Battery, ShieldCheck } from "lucide-react";
 export default function Hero() {
   return (
     <section className="relative bg-deep-blue text-white overflow-hidden py-20 lg:py-32">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=2072&auto=format&fit=crop')] bg-cover bg-center opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=1200&auto=format&fit=crop')] bg-cover bg-center opacity-10"></div>
       <div className="absolute inset-0 bg-gradient-to-b from-deep-blue/90 to-deep-blue/95"></div>
       
       <div className="container mx-auto px-4 relative z-10">
@@ -29,6 +29,8 @@ export default function Hero() {
               src="https://raw.githubusercontent.com/mirabelfelix98/My-workflow/main/1772324567186.png" 
               alt="Solar Energy Illustration" 
               className="w-full max-w-4xl mx-auto rounded-2xl shadow-2xl mb-10 border-4 border-white/10"
+              fetchPriority="high"
+              decoding="async"
             />
 
             <div className="text-lg md:text-xl text-gray-200 mb-10 leading-relaxed space-y-6 text-left md:text-justify max-w-4xl mx-auto">

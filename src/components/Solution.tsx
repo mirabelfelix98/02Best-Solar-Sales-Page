@@ -19,9 +19,11 @@ export default function Solution() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?q=80&w=2072&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?q=80&w=800&auto=format&fit=crop" 
                 alt="Solar Installation" 
                 className="rounded-3xl shadow-2xl"
+                loading="lazy"
+                decoding="async"
               />
             </div>
             <div>
