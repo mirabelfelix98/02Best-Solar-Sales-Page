@@ -11,6 +11,7 @@ import SocialProof from "./components/SocialProof";
 import Bonuses from "./components/Bonuses";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
+import FormModal from "./components/FormModal";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
       <Bonuses />
       <CTA />
       <Footer />
+      <FormModal />
     </div>
   );
 }

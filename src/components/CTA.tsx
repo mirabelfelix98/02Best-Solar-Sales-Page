@@ -21,9 +21,8 @@ export default function CTA() {
             className="inline-block"
           >
             <a 
-              href="https://wa.link/mkd0q6"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#form"
+              onClick={(e) => { e.preventDefault(); window.dispatchEvent(new CustomEvent('open-booking-form')); }}
               className="flex items-center gap-3 bg-deep-blue text-white px-8 py-5 rounded-full text-xl font-bold shadow-2xl hover:bg-gray-900 transition-colors"
             >
               Book Your Installation Now

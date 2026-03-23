@@ -43,9 +43,8 @@ export default function Hero() {
             </div>
             
             <motion.a
-              href="https://wa.link/mkd0q6"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#form"
+              onClick={(e) => { e.preventDefault(); window.dispatchEvent(new CustomEvent('open-booking-form')); }}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
               animate={{ scale: [1, 1.05, 1] }}
